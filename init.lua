@@ -77,5 +77,6 @@ return {
     -- }
     vim.opt.list = true
     vim.opt.listchars = { tab = "»-", trail = "-", eol = "↲", extends = "»", precedes = "«", nbsp = "%" }
+    vim.keymap.set("i", "<C-j>", "<Plug>(skkeleton-enable)")
   end,
 }
