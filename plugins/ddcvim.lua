@@ -11,7 +11,8 @@ return {
         sorters  = { "sorter_rank" },
       },
       skkeleton = {
-        mark = "skkeleton",
+        -- mark = "skkeleton",
+        mark = "SKK",
         matchers = { "skkeleton" },
         sorters = {},
         minAutoCompleteLength = 2,
