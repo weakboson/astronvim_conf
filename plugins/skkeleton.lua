@@ -5,7 +5,7 @@ return {
   -- config = function()
   --   return {
   --     defaults = {
-  --       globalJisyo = '~/.skk/SKK-JISYO.L',
+  --       globalDictionaries =  { '/usr/share/skk/SKK-JISYO.L' },
   --     },
   --   }
   -- end,
